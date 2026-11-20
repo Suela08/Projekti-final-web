@@ -218,18 +218,19 @@ main {
 
 
 .features-bar {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
 .feature-item {
-    flex: 1 1 260px;
     background-color: #FFFDF9;
     border: 1px solid #E5D9C9;
-    border-radius: 10px;
+    border-left: 5px solid #B5895A;
+    border-radius: 12px;
     padding: 1.3rem 1.5rem;
+    overflow: hidden;
 }
 
 .feature-item h3 {
