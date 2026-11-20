@@ -44,3 +44,32 @@ header {
 .logo span {
     color: #E6C7A8;
 }
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: #FFFDF9;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 4px;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #E6C7A8;
+    border-bottom: 2px solid #E6C7A8;
+}
+
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 5% 3.5rem;
+}
