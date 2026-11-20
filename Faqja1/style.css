@@ -364,6 +364,8 @@ footer {
     .slide-content h1 {
         font-size: 1.65rem;
     }
+    .features-bar { grid-template-columns: 1fr; 
+    }
 }
 
 @media (max-width: 480px) {
