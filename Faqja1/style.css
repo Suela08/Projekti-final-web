@@ -322,3 +322,70 @@ main {
     font-weight: 700;
     color: #6E4F3A;
 }
+/* Footer */
+footer {
+    background-color: #6E4F3A;
+    color: #FFFDF9;
+    padding: 1.5rem 5%;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Media Queries për Tablet dhe Telefon */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .slider-section {
+        height: 380px;
+    }
+
+    .slide-overlay {
+        padding: 0 3rem;
+    }
+
+    .slide-content h1 {
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-section {
+        height: 350px;
+    }
+
+    .slide-overlay {
+        padding: 0 1.4rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slide-actions {
+        justify-content: center;
+    }
+
+    .slide-content h1 {
+        font-size: 1.4rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
