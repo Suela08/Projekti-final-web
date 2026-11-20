@@ -73,3 +73,32 @@ main {
     margin: 0 auto;
     padding: 2rem 5% 3.5rem;
 }
+.btn {
+    display: inline-block;
+    padding: 0.65rem 1.35rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #B8865B;
+    color: #FFFDF9;
+}
+
+.btn-primary:hover {
+    background-color: #9E6E46;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #FFFDF9;
+    border: 1.5px solid #FFFDF9;
+}
+
+.btn-outline:hover {
+    background-color: rgba(255, 253, 249, 0.15);
+}
