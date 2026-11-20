@@ -102,3 +102,86 @@ main {
 .btn-outline:hover {
     background-color: rgba(255, 253, 249, 0.15);
 }
+.slider-section {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+    border: 1px solid #E5D9C9;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(62, 44, 32, 0.82) 0%, rgba(62, 44, 32, 0.35) 100%);
+    display: flex;
+    align-items: center;
+    padding: 0 4.5rem;
+}
+
+.slide-content {
+    max-width: 560px;
+    color: #FFFDF9;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #B8865B;
+    color: #FFFDF9;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+
+.slide-content h1 {
+    font-size: 2.3rem;
+    line-height: 1.2;
+    margin-bottom: 0.9rem;
+}
+
+.slide-content p {
+    font-size: 1.05rem;
+    margin-bottom: 1.4rem;
+    color: #F6F1EA;
+}
+
+.slide-actions {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(110, 79, 58, 0.85);
+    color: #FFFDF9;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
