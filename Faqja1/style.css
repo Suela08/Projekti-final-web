@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #F6F1EA;
-    color: #3E2C20;
+    background-color: #F4F7FB;
+    color:#1E293B;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -16,9 +16,11 @@ body {
 
 
 header {
-    background-color: #6E4F3A;
-    color: #FFFDF9;
+    background-color:#FFFFFF;
+    color: #0F4C9C;
     padding: 1rem 5%;
+    border-bottom: 1px solid #DCE5F2;
+    box-shadow: 0 2px 10px rgba(15, 76, 156, 0.06);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -52,7 +54,7 @@ header {
 }
 
 .nav-links a {
-    color: #FFFDF9;
+    color:#1E293B;
     text-decoration: none;
     font-weight: 500;
     padding-bottom: 4px;
@@ -61,8 +63,8 @@ header {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #E6C7A8;
-    border-bottom: 2px solid #E6C7A8;
+    color:#0F4C9C;
+    border-bottom: 2px solid #0F4C9C;
 }
 
 
@@ -85,22 +87,22 @@ main {
 }
 
 .btn-primary {
-    background-color: #B8865B;
+    background-color:#0F4C9C;
     color: #FFFDF9;
 }
 
 .btn-primary:hover {
-    background-color: #9E6E46;
+    background-color:#09326A;
 }
 
 .btn-outline {
     background-color: transparent;
-    color: #FFFDF9;
+    color: #FFFFFF;
     border: 1.5px solid #FFFDF9;
 }
 
 .btn-outline:hover {
-    background-color: rgba(255, 253, 249, 0.15);
+    background-color:rgba(255, 255, 255, 0.16);
 }
 .slider-section {
     position: relative;
@@ -132,7 +134,7 @@ main {
 .slide-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, rgba(62, 44, 32, 0.82) 0%, rgba(62, 44, 32, 0.35) 100%);
+    background: linear-gradient(90deg, rgba(9, 44, 92, 0.86) 0%, rgba(15, 76, 156, 0.38) 100%);
     display: flex;
     align-items: center;
     padding: 0 4.5rem;
@@ -145,8 +147,8 @@ main {
 
 .badge {
     display: inline-block;
-    background-color: #B8865B;
-    color: #FFFDF9;
+    background-color:#C59B6D;
+    color:#FFFFFF;;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -158,12 +160,13 @@ main {
     font-size: 2.3rem;
     line-height: 1.2;
     margin-bottom: 0.9rem;
+    color: #FFFDF9;
 }
 
 .slide-content p {
     font-size: 1.05rem;
     margin-bottom: 1.4rem;
-    color: #F6F1EA;
+    color: #F4F7FB;
 }
 
 .slide-actions {
@@ -176,7 +179,7 @@ main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(110, 79, 58, 0.85);
+    background-color: rgba(15, 76, 156, 0.85);
     color: #FFFDF9;
     border: none;
     width: 42px;
@@ -186,7 +189,7 @@ main {
     cursor: pointer;
 }
 .slider-btn:hover {
-    background-color: #B8865B;
+    background-color: #09326A;
 }
 
 .prev-btn { left: 16px; }
@@ -206,12 +209,12 @@ main {
     height: 11px;
     border-radius: 50%;
     border: none;
-    background-color: rgba(255, 253, 249, 0.5);
+    background-color:rgba(255, 255, 255, 0.5);
     cursor: pointer;
 }
 
 .dot.active {
-    background-color: #E6C7A8;
+    background-color:#FFFFFF;
     width: 24px;
     border-radius: 6px;
 }
@@ -225,7 +228,7 @@ main {
 }
 
 .feature-item {
-    background-color: #FFFDF9;
+    background-color:#FFFFFF;
     border: 1px solid #E5D9C9;
     border-left: 5px solid #B5895A;
     border-radius: 12px;
@@ -234,13 +237,13 @@ main {
 }
 
 .feature-item h3 {
-    color: #6E4F3A;
+    color: #0F4C9C;
     font-size: 1.1rem;
     margin-bottom: 0.35rem;
 }
 
 .feature-item p {
-    color: #755E4E;
+    color: #475569;
     font-size: 0.92rem;
 }
 /* Produktet e Veçuara */
