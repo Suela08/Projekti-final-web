@@ -1,0 +1,59 @@
+.products-hero{
+     min-height: 440px;
+    display: flex;
+    align-items: center;
+    padding: 65px 8%;
+    background:
+    linear-gradient(90deg, rgba(35,26,20,0.78), rgba(35,26,20,0.18)),
+    url("../img/fotojaa1.png") center/cover;
+    margin-bottom: 75px;
+}
+
+.products-hero-content {
+    max-width: 650px;
+    color: white;
+}
+
+.products-label {
+    color: #B18A62;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.products-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(35px, 5vw, 55px);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.products-hero p {
+    color: #F3EDE6;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 28px;
+}
+
+.products-hero-btn {
+    display: inline-block;
+    background: #B18A62;
+    color: white;
+    padding: 14px 27px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.products-hero-btn:hover {
+    background: #8D6948;
+    transform: translateY(-3px);
+}
+
+
