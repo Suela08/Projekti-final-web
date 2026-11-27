@@ -219,11 +219,11 @@
 .product-bottom {
     display: flex;
     align-items: center;
+    display: flex;
   align-items: center;
-  justify-content: space-between; /* çmimi majtas, butoni djathtas */
-  gap: 16px; /* hapësirë që mos të preken kurrë */
-  margin-top: auto; /* e shtyn rreshtin në fund të kartelës */
-
+  justify-content: space-between;
+  gap: 16px; 
+  margin-top: auto; 
 }
 .product-price {
     font-size: 20px;
